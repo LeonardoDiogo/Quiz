@@ -5,6 +5,8 @@ answer_user = input("Quer começar? (S/N) ")
 if answer_user != "S":
     quit()
 
+score = 0
+
 print("Começando...")
 print("pergunta numero 1")
 print("""Qual foi a primeira linguagem de programação?
@@ -14,6 +16,7 @@ answer_1 = input("Resposta: ")
 
 if answer_1 == "B":
     print("Correto!")
+    score = score + 1
 else:
     print("Incorreto alternativa certa é a (B) Fortran")
 
@@ -33,5 +36,8 @@ answer_2 = input("Resposta: ")
 
 if answer_2 == "B":
     print("Correto")
+    score = score + 1
 else:
     print("Incorreto alternativa certa é a (B) Python")
+
+print(f"sua pontuação foi de {score}/2")
