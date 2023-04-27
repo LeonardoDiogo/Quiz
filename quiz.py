@@ -15,7 +15,7 @@ answer_1 = input("Resposta: ")
 if answer_1 == "B":
     print("Correto!")
 else:
-    print("Incorreto")
+    print("Incorreto alternativa certa é a (B) Fortran")
 
 continuar = input("Deseja continuar? (S/N) ")
 
@@ -29,9 +29,9 @@ print("pergunta 2")
 print("""qual a linguagem mais famosa da atualidade?
 \n (A) JavaScript \n (B) Python \n (C) Java \n (D) C# """)
 
-answer_2 = input("Resposta")
+answer_2 = input("Resposta: ")
 
 if answer_2 == "B":
     print("Correto")
 else:
-    print("Incorreto")
+    print("Incorreto alternativa certa é a (B) Python")
