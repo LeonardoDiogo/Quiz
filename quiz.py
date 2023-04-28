@@ -34,7 +34,7 @@ if continuar == "S":
     print("Continuando")
 else:
     quit()
-StopAsyncIterationS
+
 for contagem in range(1, 4):
     sleep(1)
     print(contagem)
