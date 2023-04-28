@@ -1,3 +1,5 @@
+from time import sleep
+
 
 print("Seja muito bem vindo ao quiz")
 answer_user = input("Quer começar? (S/N) ")
@@ -8,6 +10,12 @@ if answer_user != "S":
 score = 0
 
 print("Começando...")
+
+for contagem in range(1, 4):
+    sleep(1)
+    print(contagem)
+
+print('Olá!')
 print("pergunta numero 1")
 print("""Qual foi a primeira linguagem de programação?
 \n (A) Assembly \n (B) Fortran \n (C) Lisp \n (D) Cobol""")
@@ -26,6 +34,11 @@ if continuar == "S":
     print("Continuando")
 else:
     quit()
+StopAsyncIterationS
+for contagem in range(1, 4):
+    sleep(1)
+    print(contagem)
+
 
 print("pergunta 2")
 
